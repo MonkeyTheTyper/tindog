@@ -1,0 +1,136 @@
+body{
+    font-family:"Montserrat";
+    text-align: center;
+}
+h1,h2,h3{
+    font-weight: 900;
+    line-height: 1.5;
+}
+h2{
+    font-size: 3rem;
+}
+.colored-section{
+    background-color:#ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+    /* Nav Bar */
+
+#title{
+    color: #fff;
+    text-align: left;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}       
+      /* title */
+.h1-meet{
+    font-size: 3.5rem;
+}
+.button{
+    margin:5% 3% 5% 0;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
+}
+     /* features */
+#features{
+    background-color: #fff;
+    margin: auto;
+    position:relative;
+    z-index: 1 ;
+}
+.icon-bl-tt{
+    color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.icon-bl-tt:hover{
+    color: #ff4c68;
+}
+.features-h3{
+    font-size: 1.5rem;
+}
+.features-p{
+    color: #8f8f8f;
+    padding:10%;
+}
+.features-block{
+    margin:50px 0 50px 0;
+}
+    /* Testimonials */
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+    /* press */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+ width: 15%; 
+ margin: 20px 20px 50px;  
+}
+    /* pricing */
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+} 
+@media (max-width: 992px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+    /* cta */
+.h3-cta{
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 5%;
+}
+    /* footer */
+#footer{
+    padding: 3% 0 3%;
+    background-color: #fff;
+}
+.icon-footer{
+   padding: 0 10px 20px;
+}
+.p-footer{
+    color: #8f8f8f;
+}
